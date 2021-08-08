@@ -33,3 +33,4 @@ if (move_x !=0 or move_y  !=0 ){image_angle = mdirc}
 
 direction = image_angle;
 if (myscore > scorebox.highscore){scorebox.highscore = myscore}
+inmap()

@@ -28,3 +28,4 @@ else{cooldown--; }
 // Gradually reduce the "just hit" effect
 if (hit > 0) { hit -= 0.05; }
 else { hit = 0; }
+inmap()
