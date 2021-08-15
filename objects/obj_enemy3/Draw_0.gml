@@ -1,6 +1,7 @@
 ///@desc Draw self and any hit effects
 
-draw_self();
+if (image_angle < 150 or image_angle > 330 ){
+draw_sprite_ext(Sprite24,0,x,y,1,1,image_angle,c_white,1);}else{draw_sprite_ext(Sprite24,1,x,y,1,1,image_angle,c_white,1);}
 
 // Draw our damange taken sprite over the top of our normal one
 // Uses "hit" for alpha/transparency, so the effect will quick wear off as hit is reduded in the Step event

@@ -8,7 +8,8 @@ if (instance_exists(obj_player_parent))
 	else{move_towards_point(target.x, target.y,0);}
 
 	image_angle = direction; // Angle this enemy's sprite to face the player
-	
+
+// if the player is in ranage and that the tank can fire 
 
 if (cooldown <= 0 and inrange < 300 )	
 	{

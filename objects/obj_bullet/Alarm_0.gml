@@ -1,3 +1,3 @@
-/// @desc instance_destroy();
+/// @desc after the timer remove the bullet;
 
 instance_destroy();

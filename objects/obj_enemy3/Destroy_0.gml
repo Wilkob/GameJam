@@ -1,6 +1,6 @@
 ///@desc Spawn fragments and play death effects
 
-instance_create_layer(x,y,"lay_enemy",obj_fragment);
+instance_create_layer(x,y,"lay_enemy",obj_blast);
 
 with (instance_create_layer(x,y,"lay_splatter",obj_splatter3)) { image_angle = other.direction; }
 

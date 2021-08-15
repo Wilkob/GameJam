@@ -2,15 +2,15 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 59,
-  "bbox_top": 6,
-  "bbox_bottom": 27,
+  "bbox_top": 11,
+  "bbox_bottom": 20,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"887b287e-d7d4-4a7c-883e-84152104306a","path":"sprites/Sprite25/Sprite25.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"887b287e-d7d4-4a7c-883e-84152104306a","path":"sprites/Sprite25/Sprite25.yy",},"LayerId":{"name":"3e5c253f-9e1c-4a0e-aa5c-d43ea951ebeb","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","name":"887b287e-d7d4-4a7c-883e-84152104306a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"114f950f-ea0f-494e-905d-4cc37ea3226c","path":"sprites/Sprite25/Sprite25.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"114f950f-ea0f-494e-905d-4cc37ea3226c","path":"sprites/Sprite25/Sprite25.yy",},"LayerId":{"name":"9045310f-5ee5-44b7-88c7-83baba093c1f","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","name":"114f950f-ea0f-494e-905d-4cc37ea3226c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5b9152bb-154c-4e61-9cd9-3e605f70dcab","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"887b287e-d7d4-4a7c-883e-84152104306a","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"227769d6-96a0-4bf2-ab3b-299a8a95a8e1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"114f950f-ea0f-494e-905d-4cc37ea3226c","path":"sprites/Sprite25/Sprite25.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 83,
+    "xorigin": 30,
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3e5c253f-9e1c-4a0e-aa5c-d43ea951ebeb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9045310f-5ee5-44b7-88c7-83baba093c1f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GameJam2",
-    "path": "GameJam2.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite25",

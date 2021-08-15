@@ -43,8 +43,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameJam2",
-    "path": "GameJam2.yyp",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_unitcontrol",

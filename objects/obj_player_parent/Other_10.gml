@@ -22,7 +22,7 @@ if (cooldown == 0) //if we're allowed to fire...
 	}
 	else if (weapon == 1) //fire special weapon (3 bullets split)
 	{
-		var bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
+		var bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet);
 			
 		with (bullet)
 		{
@@ -31,7 +31,7 @@ if (cooldown == 0) //if we're allowed to fire...
 			playerID = other.playerID;
 		}
 			
-		bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
+		bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet);
 			
 		with (bullet)
 		{
@@ -40,7 +40,7 @@ if (cooldown == 0) //if we're allowed to fire...
 			playerID = other.playerID;
 		}
 			
-		bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet2);
+		bullet = instance_create_layer(x,y,"lay_bullets",obj_bullet);
 			
 		with (bullet)
 		{

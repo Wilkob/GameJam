@@ -1,6 +1,6 @@
 ///@desc Spawn fragments and play death effects
 
-instance_create_layer(x,y,"lay_enemy",obj_fragment);  // Spawn between 5 and 8 fragments
+instance_create_layer(x,y,"lay_enemy",obj_blast);  // Spawn between 5 and 8 fragments
 
 with (instance_create_layer(x,y,"lay_splatter",obj_splatter2)) { image_angle = other.direction; }
 
